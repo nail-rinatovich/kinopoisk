@@ -4,5 +4,5 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-pip install -r requirements.txt
+pip install -r ./requirements.txt
 python manage.py collectstatic --noinput
